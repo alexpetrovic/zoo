@@ -1,0 +1,19 @@
+/* Add your custom CSS styles here */
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+select {
+  width: 50px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}

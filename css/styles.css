@@ -1,0 +1,180 @@
+nav {
+  background-color: #03ac13;
+  color: #fff;
+}
+
+#search:hover {
+  color: #03ac13;
+  background-color: #fff;
+  border: 1px solid #03ac13;
+}
+
+.carousel-height {
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#mainCarousel {
+  margin-top: 30px;
+}
+
+.registration a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+div > a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.section-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-body a {
+  background-color: #03ac13;
+  border: #03ac13;
+}
+.card-body a:hover {
+  color: #03ac13;
+  background-color: #fff;
+  border: 1px solid #03ac13;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 976px) {
+  .card-carousel:not(:nth-child(-n+2)) {
+    display: none;
+  }
+}
+footer {
+  background-color: #03ac13;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-gallery-height {
+  height: 600px;
+}
+
+.carousel-img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.form-button {
+  background-color: #03ac13;
+  border: #03ac13;
+  color: #fff;
+}
+.form-button:hover {
+  color: #03ac13;
+  background-color: #fff;
+  border: 1px solid #03ac13;
+}
+.form-button a {
+  color: #fff;
+  text-decoration: none;
+}
+.form-button a:hover {
+  color: #03ac13;
+}
+
+.map a {
+  color: #03ac13;
+  text-decoration: none;
+}
+.map a:hover {
+  border-bottom: 1px solid #03ac13;
+}
+
+.card:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.card-no-hover:hover {
+  transform: scale(1);
+}
+
+.filler {
+  height: 250px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 500px;
+  font-weight: bold;
+}
+
+.non-bold {
+  font-weight: lighter;
+}
+
+select {
+  width: 50px;
+}
+
+#result {
+  margin-top: 100px;
+  font-weight: bold;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.anketa-footer {
+  margin-top: 280px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #03ac13;
+  color: #fff;
+}
+
+.theme-switcher {
+  margin-top: 20px;
+}
+.theme-switcher select {
+  background-color: #ffffff;
+  color: #333;
+}/*# sourceMappingURL=styles.css.map */

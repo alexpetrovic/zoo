@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="description" content="Najbolji zoo vrt ikada.">
+    <meta name="keywords" content="Zoo, Zoo vrt, životinje">
+    <meta name="author" content="Aleksandar Petrović, apetrovic@itbookvar.rs">
+    <script src="js/all.min.js"></script>
+    <title>Zoo Vrt | Kontakt</title>
+    <link rel="stylesheet" href="anketa.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="anketa.js"></script>
+</head>
+
+<body>
+    <!-- Navbar start-->   
+    <nav class="navbar navbar-expand-xxl navbar-dark mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html"><img src="img/logo.png" alt="ZooVrt"></a>     
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                  <a href="zivotinje.html" class="nav-link ">Životinje</a>
+                </li>
+                <li class="nav-item">
+                  <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+                <li class="nav-item">
+                  <a href="karte.html" class="nav-link ">Kupovina karata</a>
+                </li>               
+                <li class="nav-item">
+                  <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                  <a href="anketa.html" class="nav-link active">Anketa</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav me-5">
+                <li class="nav-item">                    
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+    </nav>
+    <!-- Navbar end-->
+
+    <!-- Showcase starts-->
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="mt-4">Anketa</h2>
+            <hr class="mt-2 mb-3">
+            <div class="row">
+
+                    <form id="surveyForm">
+                        <div class="question col-md-12">
+                            <label for="q1" class="col-md-12">Koliko ste zadovoljni opštim izgledom Zoo vrta? <span class="non-bold">(1 - potpuno nezadovoljan, 5 - potpuno zadovoljan)</span></label>
+                            <select id="q1" class="rating">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="question">
+                            <label for="q2" class="col-md-12">Koliko ste zadovoljni raznovrsnošću životinja u Zoo vrtu? <span class="non-bold">(1 - potpuno nezadovoljan, 5 - potpuno zadovoljan)</span></label>
+                            <select id="q2" class="rating">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="question">
+                            <label for="q3" class="col-md-12">Koliko ste zadovoljni čistoćom u Zoo vrtu? <span class="non-bold">(1 - potpuno nezadovoljan, 5 - potpuno zadovoljan)</span></label>
+                            <select id="q3" class="rating">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <button type="button" id="submitBtn" class="btn btn-outline-primary form-button">Pošalji</button>
+                    </form>
+                    <div id="result"></div>
+                
+                    
+                
+                
+                 
+              
+            </div>
+        </div>
+    </div>
+      <!-- Showcase ends-->
+
+    <!-- Footer start -->
+    <footer  class="page-footer anketa-footer">
+        <div class="container">
+        <div class="row py-3 mr-5 mt-4">
+           
+    
+        <div class="text-center mb-3">
+            <h3>Linkovi</h3>
+        </div>
+
+        <div class="text-center mb-5">
+            <a href="index.html"><small>Početna</small></a> |
+            <a href="zivotinje.html"><small>Životinje</small></a> |
+            <a href="galerija.html"><small>Galerija</small></a> |
+            <a href="karte.html"><small>Kupovina karata</small></a> |    
+            <a href="kontakt.html"><small>Kontakt</small></a> |    
+            <a href="anketa.html"><small>Anketa</small></a> |    
+        </div>
+
+
+        <div class="footer-copyright text-center mt-2 mb-2 ">Zoo Vrt 2023 ©
+        </div>  
+        </div>
+    </footer>
+    <!-- Footer end -->
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
